@@ -1,0 +1,229 @@
+
+.displaylarge {
+    display:none
+}
+
+.container-fluid img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.background-basic {
+
+    height: 120vh;
+    
+    background: #a7cece;
+    
+    background-attachment: local;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+/* .button {
+    position: relative;
+    top: -150px;
+    left: 28%;
+    color: white;    
+    display: flex;
+    height: 0px;
+    
+} */
+
+.button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.video {
+    position: relative;
+}
+
+
+.button img {
+    width: 150px;
+    height: 150px;
+}
+.button img:hover{
+    background-color: #51515115;
+}
+
+#button1  {
+    top:-250px;
+}
+
+#img1 {
+    background-image: url('media/mjølking1.jpg'); 
+    
+}
+
+#img2 {
+    
+    background-image: url('media/mjølking2.jpg');
+  
+}
+
+#img3 {
+    
+    background-image: url('media/mjølking3.jpg');
+  
+}
+
+/* @media only screen and (min-width:400px) {
+    .button {
+        top:-200px;
+        left: 35%;
+    }
+    .button img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #button1  {
+        top:-300px;
+    }
+} */
+
+
+@media only screen and (min-width:576px) {
+
+    #img1 {
+        background-image: url('media/NM\ melking\ 51.jpg'); 
+    }
+    
+    #img2 {
+        
+        background-image: url('media/NM\ melking\ 13.jpg');
+      
+    }
+    
+    #img3 {
+        
+        background-image: url('media/NM\ melking\ 7.jpg');
+      
+    }
+
+    
+
+    .button {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .button img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .displaylarge {
+        display:block
+    }
+
+    .displaysmall {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width:768px) {
+    #img1 {
+        background-attachment: fixed;
+        background-image: url('media/NM\ melking\ 51.jpg');
+    }
+
+    #img2 {
+        background-attachment: fixed;
+        background-image: url('media/NM\ melking\ 13.jpg')
+    }
+
+    #img3 {
+        background-attachment: fixed;
+        background-image: url('media/NM\ melking\ 7.jpg');
+    }
+
+    .button {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    
+    
+
+}
+
+@media only screen and (min-width:992px) {
+    #img1 {
+        background-attachment: fixed;
+        background-image: url('media/NM\ melking\ 51.jpg');
+    }
+
+    #img2 {
+        background-attachment: fixed;
+        background-image: url('media/NM\ melking\ 13.jpg');
+        
+    }
+
+    #img3 {
+        background-attachment: fixed;background-image: url('media/NM\ melking\ 7.jpg');
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    
+
+    .button {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .button img {
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+@media only screen and (min-width:1200px){
+    .button {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .video {
+        position: relative;
+    }
+
+}
+
+.topvideo {
+    max-height: 100vh;
+}
+
+
+
+
